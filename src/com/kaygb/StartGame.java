@@ -16,7 +16,7 @@ public class StartGame {
             return true;
         }
         System.out.println("Please choose how to play:");
-        System.out.println("1: 三次错误提示，2,十题连做 ");
+        System.out.println("1: 三次错误提示，2: 十题连做 ");
         int how = scanner.nextInt();
         if (how < 1 || how > 2) {
             System.out.println("错误，请选择正确的模式！");

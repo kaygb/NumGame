@@ -24,17 +24,6 @@ public class Mode {
             case '/':
                 da = a/b;
         }
-//        while (true){
-//            int res = scanner.nextInt();
-//            if (res == da){
-//                resRight();
-//                 st=1;
-//                break;
-//            }else {
-//                resError();
-//                st=0;
-//            }
-//        }
         int res = scanner.nextInt();
             if (res == da){
                 resRight();
